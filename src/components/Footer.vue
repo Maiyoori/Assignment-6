@@ -7,7 +7,7 @@
       Contact Us <br />
       maiyoorisri@gmail.com <br />(416)-000-0000
     </p>
-    <a class="about" href="https://github.com/Maiyoori/Summative" @click="navigate" role="link">About</a>
+    <a class="about" href="https://github.com/Maiyoori/Assignment-6" @click="navigate" role="link">About</a>
   </div>
 </template>
 

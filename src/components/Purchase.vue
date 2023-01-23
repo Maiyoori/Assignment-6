@@ -3,7 +3,6 @@ import { ref } from 'vue';
 import SiteModal from '../components/SiteModal.vue';
 import { useStore } from "../store/index.js"
 
-
 const store = useStore();
 const genre = ref(28);
 const showModal = ref(false);
@@ -17,7 +16,6 @@ const openModal = (id) => {
 const closeModal = () => {
   showModal.value = false;
 };
-
 
 const getGenres = async () => {
   await store.getMovies(genre.value);
@@ -77,7 +75,7 @@ const getGenres = async () => {
 
 .poster {
   height: 400px;
-  border: solid rgb(243, 181, 38);
+  border: solid white;
   margin-left: -3px;
 }
 
@@ -98,11 +96,9 @@ const getGenres = async () => {
   margin-left: 1187px;
 }
 
-
 .button {
   opacity: 0%;
 }
-
 
 .cart-text {
   position: absolute;
@@ -121,5 +117,12 @@ const getGenres = async () => {
 
 a:hover {
   color: rgb(243, 181, 38);
+}
+
+.poster:hover {
+  height: 405px;
+  border: solid rgb(243, 181, 38);
+  margin-left: -5px;
+  margin-top: -2px;
 }
 </style>

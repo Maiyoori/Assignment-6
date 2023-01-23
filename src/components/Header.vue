@@ -18,7 +18,7 @@
   font-size: 1.5cm;
   font-weight: 100;
   padding: 10px;
-  margin-top: -18px;
+  margin-top: -20px;
   padding-left: 10px;
 }
 
